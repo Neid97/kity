@@ -26,7 +26,7 @@
     background-image: url(../imagenes/fondo--despues.jpg);
     background-size: cover;
     background-position: center;
-    user-select: none;
+
     opacity: 0;
     transition: opacity 3s ease;
     transition-delay: 2s;
@@ -73,12 +73,8 @@
     transition-property: opacity;
     transition-timing-function: ease;
     cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
     -webkit-touch-callout: none;
-    pointer-events: none;
+    -webkit-user-drag: none;
 }
 .corazon__img:hover{
     opacity: 0;
@@ -126,12 +122,6 @@
     opacity: 1;
     color: #ecefec;
 }
-
-
-
-
-
-
 
 
 
