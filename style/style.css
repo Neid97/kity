@@ -21,7 +21,7 @@
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url(imagenes/fondo--despues.jpg);
+    background-image: url(../imagenes/fondo--despues.jpg);
     background-size: cover;
     background-position: center;
 
@@ -115,6 +115,7 @@
     opacity: 1;
     color: #ecefec;
 }
+
 
 
 
