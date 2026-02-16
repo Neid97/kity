@@ -62,7 +62,11 @@
 }
 .corazon__img{
     width: 100px;
-    height: 100px; 
+    height: 100px;
+    background-image: url(../imagenes/carta-corazon.png);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
     object-fit: contain;
     clip-path: inset(6%);
     transition-duration: 3s;
@@ -98,7 +102,7 @@
     font-style: italic;
     transition-duration: 5s;
     transition-delay: 2s;
-    transition-property: color;
+    transition-property: color, opacity;
     transition-timing-function: ease;
 }
 
@@ -122,6 +126,7 @@
     opacity: 1;
     color: #ecefec;
 }
+
 
 
 
