@@ -97,7 +97,7 @@
     font-weight: 600;
     font-style: italic;
     transition-duration: 5s;
-    transition-delay: 2s;
+    transition-delay: 2.5s;
     transition-property: color, opacity;
     transition-timing-function: ease;
 }
@@ -107,22 +107,19 @@
 }
 .texto--dos{
     justify-content: flex-start;
-    transition-delay: 2.8s;
+    transition-delay: 3s;
     width: 250px;
 }
 
-.contenedor:has(.corazon__img:hover) .texto--uno{
-    transition-property: opacity;
+.contenedor:has(.corazon__img:hover) > .texto--uno{
     opacity: 1;
     color: #ecefec;
 }
 
-.corazon:hover ~ .texto--dos{
-    transition-property: opacity;
+.contenedor:has(.corazon__img:hover) > .texto--dos{
     opacity: 1;
     color: #ecefec;
 }
-
 
 
 
