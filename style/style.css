@@ -69,8 +69,11 @@
     transition-property: opacity;
     transition-timing-function: ease;
     cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     -webkit-touch-callout: none;
-    -webkit-user-drag: none;
 }
 .corazon__img:hover{
     opacity: 0;
@@ -118,6 +121,7 @@
     opacity: 1;
     color: #ecefec;
 }
+
 
 
 
